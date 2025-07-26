@@ -5,12 +5,12 @@
      font-family: "Dancing Script", cursive;
 }
 .sec-1{ 
-    background-image: url(/image/banner.jpg);
-     height: 100vh; 
+    background-image: url(/image/banner.jpg); 
      width: 100%;
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
+     padding-bottom: 30px;
 
 }
 .sec-1-containt li a{
@@ -215,11 +215,8 @@ span {
     margin-bottom: 30px;
     color: rgb(172, 172, 172);
 }
-
 .sec-4-card-image img{
-    width: 30%;
-    margin-bottom: 40px;
-    margin-top: 20px;
+     width: 30%;
 }
 .sec-4-main:hover{
     background-color: orangered;
@@ -228,14 +225,15 @@ span {
     width: 100%;
     border-radius: 50%;
 }
-.sec-4-img-1-cintaint h5{
+.sec-4-img-1-containt h5{
     font-weight: bolder;
     color: orangered;
 }
-.sec-4-img-1-cintaint p{
+.sec-4-img-1-containt p{
     font-size: 15px;
     font-weight: bold;
 }
+
 
 .dollar span{
     font-size: 35px;
@@ -250,11 +248,14 @@ span {
     background-color: rgba(225, 224, 224, 0.425);
     margin-bottom: 40px;
 }
-.nav-pills .nav-item .active{
-    background-color: orangered !important;
+ .nav-pills .nav-item .active{
+    background-color: orangered !important; 
 }
 .sec-4-card-heading h2{
     color: black;
+}
+.nav-item{
+   width: 25%;
 }
 /* section-5 */
 .sec-5{
@@ -373,6 +374,9 @@ span {
 .modal-body img {
     width: 100%;
    
+}
+img.image-1 {
+    object-fit: cover;
 }
 .modal-body{
     padding: 0px !important;
@@ -559,6 +563,7 @@ span {
     font-weight: bolder;
     background-color: orangered;
     padding: 10px;
+    color: rgb(235, 229, 229);
 }
 .card-bottom a:hover{
     text-decoration: none;
